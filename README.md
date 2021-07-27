@@ -1,5 +1,7 @@
-# vim
-VIM as IDE
+# VIM as IDE
+
+My configuration for vim which I use for PHP development.
+Not overloaded with plugins, suitable even for vim beginners.
 
 # Installl
 ```
