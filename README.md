@@ -6,7 +6,7 @@ Not overloaded with plugins, suitable even for vim beginners.
 # Installl
 ```
 mkdir -p ~/.config/
-cd -p ~/.config/
+cd ~/.config/
 git clone git@github.com:kolotov/vim.git
 ln -s ~/.config/vim/.vim ~/.vim
 ln -s ~/.config/vim/.viminfo ~/.viminfo
