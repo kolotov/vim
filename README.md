@@ -6,6 +6,7 @@ Not overloaded with plugins, suitable even for vim beginners.
 # Preparation for macOS
 
 ```
+brew install node
 brew install python@3
 brew install vim
 
