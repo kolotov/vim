@@ -17,7 +17,7 @@ exec -l $SHELL
 #check +python3
 vim --version | grep python3 | head -n 1
  ```
-# Installl
+# Installation
 ```
 mkdir -p ~/.config/
 cd ~/.config/
