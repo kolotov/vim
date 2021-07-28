@@ -13,7 +13,7 @@ brew install vim
 #update path
 exec -l $SHELL
 
-#restar terminal
+#restart terminal
 exit
 
 #check +python3
