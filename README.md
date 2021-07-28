@@ -13,6 +13,7 @@ brew install vim
 exec -l $SHELL
 
 #restar terminal
+exit
 
 #check +python3
 vim --version | grep python3 | head -n 1
