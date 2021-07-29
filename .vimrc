@@ -1,6 +1,22 @@
 set number   
 syntax on
 
+set encoding=utf-8
+set updatetime=300
+
+" Give more space for displaying messages.
+set cmdheight=2
+
+" Don't pass messages to |ins-completion-menu|.
+set shortmess+=c
+
+" Some basic PSR code style rules
+set tabstop=4           " Tab width
+set softtabstop=4       " Soft tab width
+set shiftwidth=4        " Shift width
+set expandtab           " Use spaces instead of tabs
+
+
 set backspace=indent,eol,start
 
 filetype plugin indent on
