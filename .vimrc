@@ -7,6 +7,15 @@ filetype plugin indent on
 
 let g:pymode_python = 'python3'
 
+
+
+function Open_term()
+    botright term
+    resize 7
+endfunction
+:command -nargs=0 Term exec Open_term()
+
+
 "====== Plugins ========
 call plug#begin('~/.vim/plugged')
 
