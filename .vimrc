@@ -45,5 +45,7 @@ let g:ale_php_php_cs_fixer_executable='./vendor/bin/php-cs-fixer'
 let g:ale_fixers = {'php': ['php-cs-fixer']}
 
 
-
+"==== NERDTree ===
+"Start NERDTree and leave the cursor in it.
+autocmd VimEnter * NERDTree
 
