@@ -1,7 +1,7 @@
 set number   
 syntax on
 
-"set backspace=indent,eol,start
+set backspace=indent,eol,start
 
 filetype plugin indent on
 
