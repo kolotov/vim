@@ -34,6 +34,10 @@ call plug#end()
 "====== gruvbox =====
 autocmd vimenter * ++nested colorscheme gruvbox
 
+"==== Air Line =====
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme='solarized'
+let g:airline_solarized_bg='dark'
 
 "==== ALE =====
 let g:ale_php_phpcs_executable='./vendor/bin/phpcs'
