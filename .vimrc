@@ -42,6 +42,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'dense-analysis/ale'
 
 "Plug 'StanAngeloff/php.vim'
+"Plugin 'editorconfig/editorconfig-vim'
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
