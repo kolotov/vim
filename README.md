@@ -31,4 +31,5 @@ ln -s ~/.config/vim/.vimrc ~/.vimrc
 In VIM
 ```
 :PlugInstall
+:CocInstall coc-tsserver coc-json coc-html coc-css  coc-phpls
 ```
