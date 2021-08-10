@@ -69,6 +69,7 @@ let g:airline_solarized_bg='dark'
 let g:ale_php_phpcs_executable='./vendor/bin/phpcs'
 let g:ale_php_php_cs_fixer_executable='./vendor/bin/php-cs-fixer'
 let g:ale_fixers = {'php': ['php-cs-fixer']}
+let g:ale_linters = {'php': ['phpcs']}
 
 " Set this variable to 1 to fix files when you save them.
 let g:ale_fix_on_save = 1
