@@ -66,9 +66,9 @@ let g:airline_theme='solarized'
 let g:airline_solarized_bg='dark'
 
 "==== ALE =====
-"for docker
-"let g:ale_php_phpcs_executable='docker-compose exec --workdir /var/www/html/wp-content/plugins/kvsimport/ wordpress ./vendor/bin/phpcs'
-"let g:ale_php_php_cs_fixer_executable='docker-compose exec --workdir /var/www/html/wp-content/plugins/kvsimport/ wordpress ./vendor/bin/php-cs-fixer'
+"for example with docker compose
+"let g:ale_php_phpcs_executable='docker-compose exec --workdir /var/www/html/ wordpress ./vendor/bin/phpcs'
+"let g:ale_php_php_cs_fixer_executable='docker-compose exec --workdir /var/www/html/ wordpress ./vendor/bin/php-cs-fixer'
 
 let g:ale_php_phpcs_executable='./vendor/bin/phpcs'
 let g:ale_php_php_cs_fixer_executable='./vendor/bin/php-cs-fixer'
