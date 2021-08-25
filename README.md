@@ -23,7 +23,7 @@ vim --version | grep python3 | head -n 1
 ```
 mkdir -p ~/.config/
 cd ~/.config/
-git clone git@github.com:kolotov/vim.git
+git clone https://github.com/kolotov/vim.git
 ln -s ~/.config/vim/.vim ~/.vim
 ln -s ~/.config/vim/.viminfo ~/.viminfo
 ln -s ~/.config/vim/.vimrc ~/.vimrc
