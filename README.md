@@ -33,3 +33,13 @@ In VIM
 :PlugInstall
 :CocInstall coc-tsserver coc-json coc-html coc-css  coc-phpls
 ```
+# Problems
+
+```
+[coc.nvim] build/index.js not found, please install dependencies and compile coc.nvim by: yarn install
+```
+
+Solution:
+```
+:call coc#util#install()
+```
