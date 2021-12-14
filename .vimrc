@@ -59,6 +59,7 @@ call plug#end()
 
 "====== gruvbox =====
 autocmd vimenter * ++nested colorscheme gruvbox
+set background=dark
 
 "==== Air Line =====
 let g:airline#extensions#tabline#enabled = 1
